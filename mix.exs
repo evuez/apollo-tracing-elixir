@@ -32,8 +32,8 @@ defmodule ApolloTracing.Mixfile do
 
   defp deps do
     [
-      {:absinthe, "~> 1.4"},
-      {:absinthe_plug, "~> 1.4", optional: true},
+      {:absinthe, "~> 1.5.0-rc.3"},
+      {:absinthe_plug, "~> 1.5.0-rc.2", optional: true},
       {:jason, "~> 1.1.2", optional: true},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
